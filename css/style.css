@@ -1,0 +1,98 @@
+/* utility */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+/**** navbar ****/
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 60px;
+}
+
+/* logo */
+.logo {
+  width: 100px;
+  margin-right: 50px;
+}
+
+/* verticle line */
+.line {
+  border-left: 1px solid #fff;
+  height: 40px;
+  margin-right: 50px;
+}
+
+/* nav-menu */
+.list {
+  display: flex;
+}
+/* nav-list */
+.list .list-item {
+  margin-right: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+/* nav button */
+.grow-list + div {
+  margin-left: auto;
+}
+
+.button-small {
+  display: inline-block;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  background-color: #ba0cc5;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+/***** hero section *****/
+.hero {
+  background-image: url('../assets/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+}
+
+/* h1 heading */
+.hero-heading {
+  margin: auto;
+  width: 800px;
+  font-size: 60px;
+  padding-top: 200px;
+}
+
+/* p para */
+.hero-description {
+  font-size: 22px;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-large {
+  display: inline-block;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: #ba0cc5;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px 35px;
+}
