@@ -2,9 +2,9 @@
 
 Hello,
 
-I'm `Ammar Azam Khan`. This is the 5th assignment in my `Full Stack Javascript Bootcamp`, where I developed this website.This website is not responsive.
+I'm `Ammar Azam Khan`. This is the 5th assignment in my `Full Stack Javascript Bootcamp`, where I developed this website. This website is not responsive.
 
-The Home page contains:
+The Landing page contains:
 
 - Navbar
 - Hero Section
